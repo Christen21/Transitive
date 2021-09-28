@@ -1,0 +1,276 @@
+/* Start Main Rules */
+body {
+      margin-top: 0;
+      margin-bottom: 0;
+      background-color: #d6d6d6;
+     }
+
+hr {
+    color: #bebebe;
+    width: 90%;
+    border: 1px solid #bebebe;
+   }
+
+/* Start Banner */
+.banner {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        }
+      
+.banner video {
+              position: absolute;
+              min-width: 100%;
+              min-height: 100%;
+              z-index: 0;
+              }
+      
+.banner .logo {
+                position: relative;
+                z-index: 2;
+                background-color: #00000066;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+             }
+
+.banner .logo .content {
+                        padding-top: 15%;
+                       }
+
+.banner .logo .content h1 {
+                           color: #fff;
+                           font-size: 4rem;
+                           font-family: serif;
+                           letter-spacing: 0.2rem;
+                          }
+
+.banner .logo .content p {
+                          color: #a1a1a1;
+                          font-size: 1.5rem;
+                          padding-top: 1%;
+                         }
+
+.banner .logo .content button {
+                                margin-top: 4%;
+                                padding-left: 2%;
+                                padding-right: 2%;
+                              }
+      
+.banner .overlay {
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 height: 100%;
+                 width: 100%;
+                 z-index: 1;
+                 }
+/* End Of Banner */
+
+/* Start Get Started */
+.start {
+        padding-top: 10%;
+       }
+
+.start img {
+            width: 100%;
+            height: 100%;
+           }
+
+.start .content {
+                background-color: #fff;
+                text-align: center;
+                padding-top: 5%;
+                padding-bottom: 2%;
+                padding-left: 3%;
+                padding-right: 3%;
+                }
+
+.start .content p {
+                   color: #bebebe;
+                   padding-top: 1%;
+                   padding-bottom: 1%;
+                  }
+/* End Of Get Started */
+
+/* Start Learn More */
+.learn {
+        background-image: url('../Images/bg.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        margin-top: 8%;
+        padding: 5% 8%;
+        position: relative;
+        overflow: hidden;
+        z-index: 0;
+       }
+
+.learn .special {
+                 border-right: 1px solid #bebebe;
+                }        
+
+.learn h4 {
+           color: #fff;
+          }
+
+.learn p {
+          color: #bebebe;
+          padding-top: 6%;
+         }
+
+.learn button {
+               background: none;
+               color: #fff;
+               font-weight: bold;
+               border: 1px solid #bebebe;
+               padding: 2% 5%;
+               margin-top: 6%;
+              }
+
+.learn .overLay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                z-index: 1;
+                background-color: rgba(0, 0, 0, 0.6);
+                }
+
+.learn .second {
+                position: relative;
+                z-index: 2;
+               }
+/* End Of Learn More */
+
+/* Start Caeds */
+.cards {
+        margin-top: 10%;
+        margin-left: 3%;
+        margin-right: 3%;
+       }
+
+.cards .card {
+              margin: 0 5%;
+             }
+
+.cards .card h3 {
+                 padding-top: 10%;
+                 text-align: center;
+                 color: #333333;
+                }
+
+.cards .card h6 {
+                padding: 3% 0;
+                text-align: center;
+                color: #bebebe;
+               }
+
+.cards .card p {
+                padding-top: 3%;
+                padding-left: 5%;
+                color: #bebebe;
+               }
+/* End Of Cards */
+
+/* Start Repeat */
+.repeat {
+        background-image: url('../Images/bg.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        margin-top: 8%;
+        padding: 5% 8%;
+        position: relative;
+        overflow: hidden;
+        z-index: 0;
+        }
+
+.repeat h3 {
+           color: #fff;
+           }
+     
+.repeat p {
+           color: #bebebe;
+           padding-top: 2%;
+           font-size: 1.1rem;
+          }
+
+.repeat .overLay {
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 height: 100%;
+                 width: 100%;
+                 z-index: 1;
+                 background-color: rgba(0, 0, 0, 0.6);
+                 }
+
+.repeat .second {
+                position: relative;
+                z-index: 2;
+               }          
+/* End Of Repeat */
+
+/* Start Get Inn Touch */
+.form {
+        margin-top: 8%;
+        padding: 5%;
+        background-color: #fff;
+        color: #a1a1a1;
+        font-family: serif;
+      }
+
+.form h3 {
+          text-align: center;
+          padding-bottom: 2%;
+         }
+
+.form div {
+           margin-top: 3%;
+          }
+
+.form input ,
+.form select ,
+.form textarea {
+                background-color: #f0efef;
+                border: 1px solid #f0f0f0;
+               }
+
+.form textarea {
+                width: 100%;
+               }
+
+.form textarea:hover {
+                     border: 1px solid #bebebe;
+                     }
+
+.form button {
+              margin-top: 4%;
+              margin-left: 45%;
+             }
+/* End Of Get In Touch */
+
+/* Start Footer */
+.footer {
+        margin-top: 3%;
+        margin-bottom: 5%;
+}
+
+.footer .copyright {
+                    text-align: center;
+                    color: #fff;
+                   }
+
+.footer .copyright a {
+                      text-decoration: underline;
+                     }
+
+.footer .copyright a:hover { 
+                            text-decoration: none;
+                            color: blue;
+                           }
+/* End Of Footer */
